@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 208" width="960" height="208" role="img" aria-label="XT-Series — XtrCom project index for XT-OSS, XT-R&D, and independent engineering experiments">
+  <defs>
+    <style>
+      .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+
+  <!-- Outer frame: dark graphite card with subtle border for both light and dark GitHub themes -->
+  <rect x="1" y="1" width="958" height="206" rx="12" fill="#0B0C10" stroke="#232733" stroke-width="2"/>
+
+  <!-- Top XT signal accent line (#FF2E2E) matching xtrcom.xyz & xt-forge -->
+  <line x1="24" y1="2" x2="936" y2="2" stroke="#FF2E2E" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Subtle structural grid lines -->
+  <line x1="368" y1="24" x2="368" y2="184" stroke="#1A1D26" stroke-width="1"/>
+
+  <!-- Left column: XtrCom Hexagon Monogram + Identity -->
+  <g transform="translate(28, 34)">
+    <!-- Void icon badge -->
+    <rect x="0" y="0" width="56" height="56" rx="12" fill="#050608" stroke="#262A36" stroke-width="1.5"/>
+    <!-- Signature XtrCom Outer Hexagon (#FFFFFF) -->
+    <polygon points="28,8 45.5,18.2 45.5,37.8 28,48 10.5,37.8 10.5,18.2"
+             fill="none" stroke="#FFFFFF" stroke-width="3.4" stroke-linejoin="round"/>
+    <!-- XT Signal Core (#FF2E2E) -->
+    <g fill="none" stroke="#FF2E2E" stroke-width="3.1" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="18.5" y1="22.5" x2="25.8" y2="33.8"/>
+      <line x1="25.8" y1="22.5" x2="18.5" y2="33.8"/>
+      <line x1="29.8" y1="22.5" x2="37.4" y2="22.5"/>
+      <line x1="33.6" y1="22.5" x2="33.6" y2="33.8"/>
+    </g>
+
+    <!-- Kicker & Title -->
+    <text x="72" y="19" class="mono" font-size="11" font-weight="600" fill="#FF2E2E" letter-spacing="1.6">XTRCOM // PROJECT INDEX</text>
+    <text x="72" y="46" class="sans" font-size="24" font-weight="700" fill="#F3F4F6" letter-spacing="-0.3">XT-Series</text>
+
+    <!-- Description -->
+    <text x="2" y="84" class="sans" font-size="13" fill="#9CA3AF">Developer tooling, Android &amp; Linux systems,</text>
+    <text x="2" y="103" class="sans" font-size="13" fill="#9CA3AF">and small language model research.</text>
+
+    <!-- Footer status pill -->
+    <circle cx="8" cy="130" r="3.5" fill="#FF2E2E"/>
+    <text x="18" y="134" class="mono" font-size="11" fill="#D1D5DB" letter-spacing="0.6">xtrcom.xyz · @XtrComSu</text>
+  </g>
+
+  <!-- Right column: 3 Taxonomy Cards -->
+  <!-- Card 1: XT-OSS -->
+  <g transform="translate(388, 26)">
+    <rect x="0" y="0" width="172" height="156" rx="8" fill="#12141C" stroke="#232836" stroke-width="1.2"/>
+    <circle cx="18" cy="24" r="4" fill="#FF2E2E"/>
+    <text x="30" y="28" class="mono" font-size="13" font-weight="700" fill="#F9FAFB" letter-spacing="0.5">XT-OSS</text>
+    <text x="14" y="52" class="sans" font-size="12" font-weight="600" fill="#D1D5DB">Open-Source Releases</text>
+    <text x="14" y="74" class="sans" font-size="11.5" fill="#8B93A6">Auditable tools, ROM</text>
+    <text x="14" y="91" class="sans" font-size="11.5" fill="#8B93A6">overlays, and utilities</text>
+    <text x="14" y="108" class="sans" font-size="11.5" fill="#8B93A6">with explicit licenses.</text>
+    <text x="14" y="138" class="mono" font-size="10.5" fill="#9CA3AF">MIT · Apache-2.0 · AGPL</text>
+  </g>
+
+  <!-- Card 2: XT-R&D -->
+  <g transform="translate(574, 26)">
+    <rect x="0" y="0" width="172" height="156" rx="8" fill="#12141C" stroke="#232836" stroke-width="1.2"/>
+    <circle cx="18" cy="24" r="4" fill="#34D399"/>
+    <text x="30" y="28" class="mono" font-size="13" font-weight="700" fill="#F9FAFB" letter-spacing="0.5">XT-R&amp;D</text>
+    <text x="14" y="52" class="sans" font-size="12" font-weight="600" fill="#D1D5DB">Research &amp; Client Lab</text>
+    <text x="14" y="74" class="sans" font-size="11.5" fill="#8B93A6">Exploratory systems,</text>
+    <text x="14" y="91" class="sans" font-size="11.5" fill="#8B93A6">measured reports, and</text>
+    <text x="14" y="108" class="sans" font-size="11.5" fill="#8B93A6">fixed-scope commissions.</text>
+    <text x="14" y="138" class="mono" font-size="10.5" fill="#9CA3AF">xtrcom.xyz/commissions</text>
+  </g>
+
+  <!-- Card 3: Focus Areas -->
+  <g transform="translate(760, 26)">
+    <rect x="0" y="0" width="172" height="156" rx="8" fill="#12141C" stroke="#232836" stroke-width="1.2"/>
+    <circle cx="18" cy="24" r="4" fill="#60A5FA"/>
+    <text x="30" y="28" class="mono" font-size="13" font-weight="700" fill="#F9FAFB" letter-spacing="0.5">WORKSTREAMS</text>
+    <text x="14" y="52" class="sans" font-size="12" font-weight="600" fill="#D1D5DB">Active Engineering</text>
+    <text x="14" y="74" class="sans" font-size="11.5" fill="#8B93A6">• Local agent tooling</text>
+    <text x="14" y="91" class="sans" font-size="11.5" fill="#8B93A6">• Sparse MoE pretraining</text>
+    <text x="14" y="108" class="sans" font-size="11.5" fill="#8B93A6">• Android / Exynos 9611</text>
+    <text x="14" y="138" class="mono" font-size="10.5" fill="#9CA3AF">Rust · Go · Python · C</text>
+  </g>
+</svg>
